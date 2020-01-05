@@ -1,0 +1,3 @@
+/home/wy/Documents/opencv/cmake/demo1/build/CMakeFiles/rebuild_cache.dir
+/home/wy/Documents/opencv/cmake/demo1/build/CMakeFiles/DisplayImage.dir
+/home/wy/Documents/opencv/cmake/demo1/build/CMakeFiles/edit_cache.dir

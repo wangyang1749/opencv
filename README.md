@@ -483,10 +483,14 @@ g++ demo1.cpp  -o main -L/home/wy/softwere/opencv/lib   -lopencv_core -lopencv_h
 + 指定动态库的位置 `export LD_LIBRARY_PATH='/home/wy/softwere/opencv/lib'` 
 + 运行 `./main disktop.jpeg ` 
 
+# Linux添加自定义的动态链接库
+<https://www.jb51.net/article/138400.htm>
++ 在目录 `/etc/ld.so.conf.d` 创建文件，添加库路径
++ 执行 `ldconfig`
+
 # Reference
 
-```
-https://www.w3cschool.cn/opencv/opencv-sjw628u6.html
-
-```
- `pkg-config --cflag opencv`
+* <https://www.w3cschool.cn/opencv/opencv-sjw628u6.html>
+ 
+# 待解决的问题
+* `pkg-config --cflag opencv`
